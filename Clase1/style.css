@@ -1,0 +1,43 @@
+/*Selector universal
+**este selector, da valores por defecto a absolutamente todos los elementos **del html, por lo que en este podemos definir por ejemplo, el tamaño y **estilo de la letra por defecto.
+*/
+* {
+    font-size: 15px;
+}
+
+
+/*Esto es un comentario*/
+
+/*selector por ID, dar estilos mediante el id de los elementos*/
+#titulo {
+    color: tomato
+}
+
+/*selector por clase,
+**basicamente llamamos a dar estilo a la clase texto donde su etiqueta sea P
+**/
+p.texto {
+    color: slateblue;
+}
+
+
+p.especial {
+    color: mediumaquamarine;
+}
+
+/*Selector padre, hijo.
+**Dar estilos a los elementos de p que estan dentro de un div
+*/
+div p {
+    color: skyblue
+}
+
+
+/*Dar estilo a varios elementos dentro de un div*/
+/*Si solo dijera: DIV H2, H3
+**Estamos diciendo que el estilo aplicaria a todas las h2 que esten dentro **del div y todas las h3 de manera en general.
+*/
+div h2, div h3 {
+    color: rgb(230, 93, 93);
+}
+
