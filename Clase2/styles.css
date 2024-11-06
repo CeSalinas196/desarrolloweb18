@@ -1,0 +1,24 @@
+p.texto1 {
+    color: cadetblue;
+    border: 2px black solid;
+    /*
+    valores para el borde
+        dotted
+        dashed
+        solid * el mas comun
+        double
+        groove**
+        ridge**
+        inset**
+        outset**
+        none
+        hidden
+
+        **para objetos tridimensionales
+    */
+
+    border-style: solid;/*El estilo*/
+    border-color:rgb(63, 95, 240); /*el color*/
+    border-radius: 5px; /*si tiene borde redondeado*/
+    border-width: 5px; /*el tamaño de ese borde*/
+}
